@@ -17,11 +17,11 @@ int main()
 {
    double salary, netSalary;
    int etype, otHrs, otRate;
-   std::cout << "Enter Employee Type : ";
+   std::cout <<"Enter Employee Type : ";
    std::cin >> etype;
-   std::cout << "Enter Salary  : ";
+   std::cout <<"Enter Salary  : ";
    std::cin >> salary;
-   std::cout << "Enter OtHrs : ";
+   std::cout <<"Enter OtHrs : ";
    std::cin >> otHrs; 
    
    switch (etype) {
@@ -38,7 +38,7 @@ int main()
 
 
    netSalary = salary + otHrs* otRate;
-   std::cout << "Net Salary is " <<netSalary;
+   std::cout <<"Net Salary is  "<<netSalary;
   
    return 0;
 }
